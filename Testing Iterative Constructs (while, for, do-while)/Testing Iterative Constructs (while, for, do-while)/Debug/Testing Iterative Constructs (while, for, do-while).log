@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\bengo\Desktop\CS Test Projects\Testing Iterative Constructs (while, for, do-while)\Testing Iterative Constructs (while, for, do-while)\Source.cpp(12,15): error C2734:  'max': 'const' object must be initialized if not 'extern'
+C:\Users\bengo\Desktop\CS Test Projects\Testing Iterative Constructs (while, for, do-while)\Testing Iterative Constructs (while, for, do-while)\Source.cpp(13,10): error C3892:  'max': you cannot assign to a variable that is const
+C:\Users\bengo\Desktop\CS Test Projects\Testing Iterative Constructs (while, for, do-while)\Testing Iterative Constructs (while, for, do-while)\Source.cpp(18,23): error C3892:  'max': you cannot assign to a variable that is const
+C:\Users\bengo\Desktop\CS Test Projects\Testing Iterative Constructs (while, for, do-while)\Testing Iterative Constructs (while, for, do-while)\Source.cpp(10): error C1075:  '{': no matching token found

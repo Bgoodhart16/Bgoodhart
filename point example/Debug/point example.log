@@ -1,0 +1,8 @@
+﻿  point.cpp
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.cpp(56,19): error C2659:  '=': function as left operand
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.cpp(61,38): error C2511:  'point point::operator *(double)': overloaded member function not found in 'point'
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.h(4): message :  see declaration of 'point'
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.cpp(64,16): error C2597:  illegal reference to non-static member 'point::x'
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.cpp(64,16): error C3867:  'point::x': non-standard syntax; use '&' to create a pointer to member
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.cpp(65,16): error C2597:  illegal reference to non-static member 'point::y'
+C:\Users\bengo\Desktop\CS Test Projects\point example\point.cpp(65,16): error C3867:  'point::y': non-standard syntax; use '&' to create a pointer to member

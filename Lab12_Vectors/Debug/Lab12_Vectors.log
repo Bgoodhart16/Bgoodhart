@@ -1,0 +1,5 @@
+﻿  varArray.cpp
+C:\Users\bengo\Desktop\CS Test Projects\Lab12_Vectors\varArray.cpp(14,20): warning C4305:  'initializing': truncation from 'int' to 'char'
+C:\Users\bengo\Desktop\CS Test Projects\Lab12_Vectors\varArray.cpp(14,16): warning C4309:  'initializing': truncation of constant value
+C:\Users\bengo\Desktop\CS Test Projects\Lab12_Vectors\varArray.cpp(37,21): warning C4018:  '<': signed/unsigned mismatch
+  Lab12_Vectors.vcxproj -> C:\Users\bengo\Desktop\CS Test Projects\Lab12_Vectors\Debug\Lab12_Vectors.exe

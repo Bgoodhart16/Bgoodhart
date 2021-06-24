@@ -1,0 +1,6 @@
+﻿1>------ Build started: Project: Lab4_Guess, Configuration: Debug Win32 ------
+1>Source.cpp
+1>C:\Users\bengo\Desktop\CS Test Projects\Lab4_Guess\Source.cpp(18,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+1>Lab4_Guess.vcxproj -> C:\Users\bengo\Desktop\CS Test Projects\Lab4_Guess\Debug\Lab4_Guess.exe
+1>Done building project "Lab4_Guess.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

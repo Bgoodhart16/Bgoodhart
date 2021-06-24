@@ -1,0 +1,4 @@
+﻿  battleship.cpp
+C:\Users\bengo\Desktop\CS Test Projects\Lab9_Test\battleship.cpp(108): warning C4715:  'Fleet::check': not all control paths return a value
+C:\Users\bengo\Desktop\CS Test Projects\Lab9_Test\battleship.cpp(149): warning C4715:  'Fleet::isHitNSink': not all control paths return a value
+  Lab9_Test.vcxproj -> C:\Users\bengo\Desktop\CS Test Projects\Lab9_Test\Debug\Lab9_Test.exe

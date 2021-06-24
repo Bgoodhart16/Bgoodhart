@@ -1,0 +1,2 @@
+﻿figuresInput.obj : error LNK2005: "int userSize" (?userSize@@3HA) already defined in Figures.obj
+C:\Users\bengo\Desktop\CS Test Projects\Lab5_FIgures\Debug\Lab5_FIgures.exe : fatal error LNK1169: one or more multiply defined symbols found

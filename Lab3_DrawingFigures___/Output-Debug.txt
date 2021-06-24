@@ -1,0 +1,14 @@
+﻿'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Users\bengo\Desktop\CS Test Projects\Lab3_DrawingFigures\x64\Debug\Lab3_DrawingFigures.exe'. Symbols loaded.
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+The thread 0x4a64 has exited with code 0 (0x0).
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'Lab3_DrawingFigures.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+The thread 0xb78 has exited with code 0 (0x0).
+The thread 0x48e0 has exited with code 0 (0x0).
+The program '[16512] Lab3_DrawingFigures.exe' has exited with code 0 (0x0).

@@ -1,0 +1,3 @@
+﻿  class.cpp
+C:\Users\bengo\Desktop\CS Test Projects\ClassPractice\class.cpp(23,24): error C2275:  'playerPosition': illegal use of this type as an expression
+C:\Users\bengo\Desktop\CS Test Projects\ClassPractice\class.cpp(9): message :  see declaration of 'playerPosition'

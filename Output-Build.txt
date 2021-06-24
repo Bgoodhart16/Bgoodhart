@@ -1,0 +1,6 @@
+﻿1>------ Build started: Project: Lab3_Figures, Configuration: Debug x64 ------
+1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lab3_DrawingFigures.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+1>Source.cpp
+1>Lab3_DrawingFigures.vcxproj -> C:\Users\bengo\Desktop\CS Test Projects\Lab3_DrawingFigures\x64\Debug\Lab3_Figures.exe
+1>Done building project "Lab3_DrawingFigures.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
