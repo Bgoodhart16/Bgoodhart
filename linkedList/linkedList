@@ -1,0 +1,56 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+//creating the framwork for the linked list
+class Node {
+    public:
+        int data;
+        Node* next;};
+
+
+
+void printList(Node* a) {   
+    while(a != NULL) {
+    cout << a->data << ", ";
+    a = a->next;
+}}
+
+
+
+void append(Node* &a, int freshData){
+    Node* newNode = new Node();
+    
+    newNode->data = freshData;
+    newNode->next = NULL;
+
+    a->next = newNode;
+}
+
+
+
+
+int main() {
+
+Node* first = NULL;
+Node* second = NULL;
+Node* third = NULL;
+
+first = new Node();
+second = new Node();
+third = new Node();
+
+first->data = 1;
+first->next = second;
+second->data = 2;
+second->next = third;
+third->data = 3; 
+third->next = NULL;
+
+printList(first);
+append(third, 4);
+printList(first);
+
+return 0;}

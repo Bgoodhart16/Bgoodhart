@@ -24,10 +24,8 @@ void printList(Node* a) {
 
 void append(Node* &a, int freshData){
     Node* newNode = new Node();
-    
     newNode->data = freshData;
     newNode->next = NULL;
-
     a->next = newNode;
 }
 
@@ -83,7 +81,8 @@ printList(first);
 printList(first);
 //insertNewNode(first, 8, 2); works
 //printList(first);
-pushNode(first, 11); // this node is there but you can't 
+pushNode(first, 11);
+pushNode(first, 22); // this node is there but you can't 
 //access it with the print function bc the pushed node is out scope of print()
 
 return 0;}
