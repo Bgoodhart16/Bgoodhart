@@ -18,6 +18,8 @@ int max(int a, int b){
 
 
 int height(Node* n){
+    if(n == NULL)
+        return 0;
     return n->height;
 }
 
@@ -29,11 +31,11 @@ Node* newNode(int key) {
     node->left = NULL;
     node->right = NULL;
     node->height = 1;
-    return node;
+    return(node);
 }
 
 
-
+/*
 Node* rightRotate(Node* oldRoot){
     Node* x = oldRoot->left;
     Node* T2 = x->right;
@@ -44,7 +46,28 @@ Node* rightRotate(Node* oldRoot){
     y->height = max(height(y->left, height(y->right) + 1);
     x->height = max(height(x->left, height(x->right) + 1);
     return x;
-}
+}*/
+
+
+
+
+Node *rightRotate(Node *y) { 
+    Node *x = y->left; 
+    Node *T2 = x->right; 
+
+    // Perform rotation 
+    x->right = y; 
+    y->left = T2; 
+
+    // Update heights 
+    y->height = max(height(y->left),
+                    height(y->right)) + 1; 
+    x->height = max(height(x->left),
+                    height(x->right)) + 1; 
+
+    // Return new root 
+    return x; 
+} 
 
 
 
@@ -63,14 +86,14 @@ Node* leftRotate(Node* x) {
 
 
 int getBalance(Node* N) {
-    if(n == NULL)
+    if(N == NULL)
         return 0;
     return height(N->left) - height(N->right);
 }
 
 
 
-Node* insert(int key, Node* node) {
+Node* insert(Node* node, int key) {
     if(node == NULL)
         return(newNode(key));
 
@@ -109,3 +132,30 @@ Node* insert(int key, Node* node) {
 }
 
 
+
+void preOrder(Node* root) {
+    if(root != NULL) {
+        cout << root->key << " ";
+        preOrder(root->left);
+        preOrder(root->right);
+    }
+}
+
+
+
+
+int main() {
+    Node* root = NULL;
+
+    root = insert(root, 10);
+    root = insert(root, 20);
+    root = insert(root, 30);
+    root = insert(root, 40);
+    root = insert(root, 50);
+    root = insert(root, 25);
+
+    cout << "This is the tree traversal in preorder: " << endl;
+    preOrder(root);
+
+    return 0;
+}
