@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
+
+html {
+    background-color: #1D1F20;
+    color: burlywood;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    background-color: tomato;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
