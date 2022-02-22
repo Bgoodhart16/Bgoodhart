@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Tell me a joke</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tell Me A Joke</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&display=swap');
+    </style>
+    
+    
+</head>
 
-    <body>
+<header>
+    <h1>Tell me a joke</h1>
+</header>
 
-        <h1>Tell me a joke</h1>
-
-        <button id = "loadJoke">Give me the funny</button><br>
-
-        <div id = "setup">
-        </div><br>
-
-        <div id = "delivery">
+<body>
+    <div id="contentWindow">
+        <div id = "wrapper">
+            <button id="loadJoke">Give me the funny</button><br>
         </div>
 
-        <script defer src="script.js" charset="utf-8">
-            
-
-        </script>
+   
+        <div id="wrapper">
+            <div id="setup">
+            </div><br>
+        </div>
         
-    </body>
+        <div id="wrapper">
+            <div id="delivery">
+            </div><br>
+        </div>
+
+        <div id="wrapper">
+            <div id="error">
+            </div><br>
+        </div>
+    </div>
+<script defer src="script.js" charset="utf-8"></script>
+
+
+</body>
 
 </html>

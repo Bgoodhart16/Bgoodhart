@@ -3,7 +3,9 @@ document.addEventListener("click", function (event) {
 
     fetch("https://v2.jokeapi.dev/joke/Any?safe-mode")
     .then((response) => response.json())
-    .then((data) => displayJoke(data));
+    .then((data) => displayJoke(data))
+    .catch(() => displayError());
+
 });
 
 function displayJoke(data) {
@@ -12,3 +14,8 @@ function displayJoke(data) {
     setup.innerHTML = data.setup;
     delivery.innerHTML = data.delivery;
 }
+
+function displayError() {
+    const error = document.getElementById("error");
+    error.innerHTML = "Whoops, something went wrong. Please try again later!";
+  }
