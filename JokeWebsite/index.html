@@ -8,38 +8,94 @@
     <title>Tell Me A Joke</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&display=swap');
     </style>
     
     
 </head>
 
-<header>
-    <h1>Tell me a joke</h1>
-</header>
 
 <body>
+    <header>
+        <h1>Tell me a joke</h1>
+
+        <ul>
+            <li> <a href="#code">Code</a> </li>
+            <li> <a href="#email">Email</a> </li>
+            <li> <a href="#about">About Me</a> </li>
+        </ul>
+    </header>
+
     <div id="contentWindow">
-        <div id = "wrapper">
-            <button id="loadJoke">Give me the funny</button><br>
+        <div id = "mainPage">
+            <div id = "wrapper">
+                <button id="loadJoke">Give me the funny</button><br>
+            </div>
+
+            <div id="wrapper">
+                <div id="setup">
+                </div><br>
+            </div>
+            
+            <div id="wrapper">
+                <div id="delivery">
+                </div><br>
+            </div>
+
+            <div id="wrapper">
+                <div id="error">
+                </div><br>
+            </div>
+        </div>
+    
+
+
+        <div id = "code">
+            <h2>Purpose of this project</h2>
+
+
+            <p>The goal of this project was for me to gain a better understanding of 
+                JavaScript, Api integration, and the web-dev process. I hadn't had much 
+                experience with any web development until this point, so I really enjoyed 
+                learning all of the CSS/HTML tricks. 
+                This is a link to the code on my github so that you can check out my sloppy
+                mistakes ;)
+            </p>
+
+            <a href="https://github.com/Bgoodhart16/Bgoodhart/tree/main/JokeWebsite">Ben's Website</a>
+
         </div>
 
-   
-        <div id="wrapper">
-            <div id="setup">
-            </div><br>
-        </div>
-        
-        <div id="wrapper">
-            <div id="delivery">
-            </div><br>
+
+
+        <div id = "email">
+            <h2>My Email</h2>
+
+            <p>Shoot me an email if you find any bugs with the page. Please send
+                your name, date you found the bug, what it is, and any feedback that 
+                could make the site better!
+            </p>
+            <p>Gmail: bengoodhart16@gmail.com</p>
+
         </div>
 
-        <div id="wrapper">
-            <div id="error">
-            </div><br>
+
+
+        <div id = "about">
+            <h2>About me</h2>
+
+            <p>Shoot me an email if you find any bugs with the page. Please send
+                your name, date you found the bug, what it is, and any feedback that 
+                could make the site better!
+            </p>
+            <p>Gmail: bengoodhart16@gmail.com</p>
+
         </div>
     </div>
+
+
+
+
 <script defer src="script.js" charset="utf-8"></script>
 
 

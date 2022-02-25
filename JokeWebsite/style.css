@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
 
 html {
-    background-color: rgb(31, 31, 31);
-    color: #482673;
     font-family: 'M PLUS Code Latin', sans-serif;
     margin-top: 0;
-
 }
 
 body { 
+    background-color: rgb(31, 31, 31);
     margin: 0;
 }
 
@@ -18,26 +16,69 @@ head {
     padding-right: 50px;
 }
 
+header {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px, 10%;
+}
+
+ul {
+    color: #f6ebf4;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 8%;
+    padding-top: 11px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+
+ul li a{
+    color: #f6ebf4;
+    padding: 4px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+ul li a:hover{
+    color: #6C55FA;
+}
+
 h1 {
-    background-color: #6C55FA;
+    background-color: rgb(31, 31, 31);;
     color: #f6ebf4;
     text-align: left;
     padding: 16px;
-    padding-left: 100px;
+    padding-left: 8%;
     font-size: 30px;
     margin: 0;
     font-weight: bold;
-    font-family: 'Lobster';
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 175px;
+    margin-bottom: 30px;
+    font-size: 2vw;
 }
 
 
 
 button {
     text-align: center;
-    background-color: #023b59;
+    background-color: #6C55FA;
     color: #f6ebf4;
-    padding: 15px 32px;
+    padding: 15px 32px; 
     font-size: 1.5vw;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -55,6 +96,11 @@ button:hover {
     
 }
 
+#mainPage {
+    background-color: rgb(31, 31, 31);
+    height: 100vh;
+}
+
 #wrapper {
     display: flex;
     align-items: center;
@@ -62,17 +108,16 @@ button:hover {
     justify-content: center;
     padding: 2rem;
     font-size: 30px;
-    font-size: 3.5vw;
-    
+    font-size: 3.5vw; 
 }
 
 #contentWindow {
     max-width: 750px;
     margin: auto;
+    height: 100%;
 }
 
 #setup {
-    /* font-size: 25px; */
     font-size: 2vw;
     color: #f6ebf4;
 }
@@ -82,20 +127,71 @@ button:hover {
     color: #f6ebf4;
 }
 
+#code, #email, #about {
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 400px;
+    font-size: 1.5vw;
+}
+
+#about {
+    background-color: #6C55FA;
+    
+    padding: 35px;
+}
+
+#code a {
+    color: #6C55FA;
+}
+
+#code p {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    font-weight: lighter;
+}
+
+#email a {
+    color: #6C55FA;
+}
+
+#email, #about p {
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 650px) {
     h1 {
         text-align: center;
         padding: 18px;
-        font-size: 23px;
+        font-size: 6vw;
         margin: 0;   
         font-weight: 100;
         font-weight: bold;
     }
 
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        font-size: 5vw;
+    }
+
     button {
         text-align: center;
         font-family: 'M PLUS Code Latin', sans-serif;
-        background-color: #023b59;
+        background-color: #6C55FA;
         color: #f6ebf4;
         padding: 10px 32px;
         font-size: 3.5vw;
@@ -109,4 +205,64 @@ button:hover {
         max-width: 400px;
         margin: auto;
     }
+
+    #setup, #delivery {
+        font-size: 3vw;
+        color: #f6ebf4;
+    }
+    
+
+    ul {
+        color: #f6ebf4;
+        font-family: 'Montserrat', sans-serif;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 11px;
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 3vw;
+    }
+    
+    ul li {
+        display: inline-block;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0 1px;
+        font-size: 2vw;
+        
+    }
+    
+    ul li a{
+        color: #f6ebf4;
+        padding: 4px;
+        transition: all 0.3s ease-in-out 0s;
+        font-size: 3vw;
+    }
+    
+    ul li a:hover{
+        color: #6C55FA;
+    }
+
+    #code, #email {
+        color: white;
+        text-align: left;
+        height: 300px;
+        font-size: 4vw;
+        padding: 0px 25px;
+    }
+    
+    #code a {
+        color: #6C55FA;
+        font-size: 15px;
+    }
+
+    #code, #email p {
+        font-size: 15px;
+    }
+    
+
+    
 }
