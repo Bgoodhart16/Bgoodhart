@@ -91,8 +91,8 @@ button {
 
 button:hover {
     background-color: #f6ebf4;
-    color: #023b59;
-    border: 2px solid #023b59;
+    color: #6C55FA;
+    border: 2px solid #6C55FA;
     
 }
 
@@ -106,9 +106,12 @@ button:hover {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 2rem;
-    font-size: 30px;
+    padding: 1rem 2rem;
     font-size: 3.5vw; 
+}
+
+#mainPageContent {
+    padding: 11rem 0rem;
 }
 
 #contentWindow {
@@ -127,9 +130,9 @@ button:hover {
     color: #f6ebf4;
 }
 
-#code, #email, #about {
+#code, #email {
     color: white;
-    text-align: left;
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 0px;
     height: 400px;
@@ -138,8 +141,9 @@ button:hover {
 
 #about {
     background-color: #6C55FA;
-    
     padding: 35px;
+    padding-bottom: 90px;
+    height: 600px;
 }
 
 #code a {
@@ -156,8 +160,34 @@ button:hover {
     color: #6C55FA;
 }
 
-#email, #about p {
+#about a {
+    color: #36D9D6;
+}
+
+
+#code, #email p {
     margin-bottom: 35px;
+    
+}
+
+#about {
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    height: 400px;
+    font-size: 1.5vw;
+}
+
+#about p {
+    background-color: #6C55FA;
+    padding: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#about h2 {
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 
@@ -209,8 +239,7 @@ button:hover {
     #setup, #delivery {
         font-size: 3vw;
         color: #f6ebf4;
-    }
-    
+    }    
 
     ul {
         color: #f6ebf4;
@@ -248,12 +277,21 @@ button:hover {
 
     #code, #email {
         color: white;
-        text-align: left;
+        text-align: center;
         height: 300px;
+        font-size: 4vw;
+        
+    }
+
+    #about {
+        color: white;
+        text-align: left;
+        height: 200px;
+        padding-top: 35px;
         font-size: 4vw;
         padding: 0px 25px;
     }
-    
+
     #code a {
         color: #6C55FA;
         font-size: 15px;
@@ -263,6 +301,12 @@ button:hover {
         font-size: 15px;
     }
     
-
+    #about p {
+        background-color: #6C55FA;
+        padding: 0px;
+        font-size: 3vw;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
     
 }
