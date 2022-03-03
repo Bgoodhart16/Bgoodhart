@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap");
+
+html {
+  font-family: "M PLUS Code Latin", sans-serif;
+  margin-top: 0;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+  margin: 0;
+}
+
+head {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header {
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px, 10%;
+}
+
+ul {
+  color: #f6ebf4;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 8%;
+  padding-top: 11px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+ul li a {
+  color: #f6ebf4;
+  padding: 4px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+ul li a:hover {
+  color: #6c55fa;
+}
+
+h1 {
+  background-color: rgb(31, 31, 31);
+  color: #f6ebf4;
+  text-align: left;
+  padding: 16px;
+  padding-left: 8%;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 175px;
+  margin-bottom: 30px;
+  font-size: 2vw;
+}
+
+button {
+  text-align: center;
+  background-color: #6c55fa;
+  color: #f6ebf4;
+  padding: 15px 32px;
+  font-size: 1.5vw;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+  margin: 50px;
+  font-family: "Lobster";
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f6ebf4;
+  color: #6c55fa;
+  border: 2px solid #6c55fa;
+}
+
+#mainPage {
+  background-color: rgb(31, 31, 31);
+  height: 100vh;
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 3.5vw;
+}
+
+#mainPageContent {
+  padding: 11rem 0rem;
+}
+
+#contentWindow {
+  max-width: 750px;
+  margin: auto;
+  height: 100%;
+}
+
+#setup {
+  font-size: 2vw;
+  color: #f6ebf4;
+}
+
+#delivery {
+  font-size: 2vw;
+  color: #f6ebf4;
+}
+
+#code,
+#email {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  height: 400px;
+  font-size: 1.5vw;
+}
+
+#about {
+  background-color: #6c55fa;
+  padding: 35px;
+  padding-bottom: 90px;
+  height: 600px;
+}
+
+#code a {
+  color: #6c55fa;
+}
+
+#code p {
+  margin-top: 40px;
+  margin-bottom: 35px;
+  font-weight: lighter;
+}
+
+#email a {
+  color: #6c55fa;
+}
+
+#about a {
+  color: #36d9d6;
+}
+
+#code,
+#email p {
+  margin-bottom: 35px;
+}
+
+#about {
+  color: white;
+  text-align: left;
+  margin-bottom: 0px;
+  height: 400px;
+  font-size: 1.5vw;
+}
+
+#about p {
+  background-color: #6c55fa;
+  padding: 0px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+#about h2 {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(31, 31, 31);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    text-align: center;
+    padding: 18px;
+    font-size: 6vw;
+    margin: 0;
+    font-weight: 100;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    font-size: 5vw;
+  }
+
+  button {
+    text-align: center;
+    font-family: "M PLUS Code Latin", sans-serif;
+    background-color: #6c55fa;
+    color: #f6ebf4;
+    padding: 10px 32px;
+    font-size: 3.5vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    margin: 50px;
+  }
+
+  #contentWindow {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  #setup,
+  #delivery {
+    font-size: 3vw;
+    color: #f6ebf4;
+  }
+
+  ul {
+    color: #f6ebf4;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 11px;
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 3vw;
+  }
+
+  ul li {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 1px;
+    font-size: 2vw;
+  }
+
+  ul li a {
+    color: #f6ebf4;
+    padding: 4px;
+    transition: all 0.3s ease-in-out 0s;
+    font-size: 3vw;
+  }
+
+  ul li a:hover {
+    color: #6c55fa;
+  }
+
+  #code,
+  #email {
+    color: white;
+    text-align: center;
+    height: 300px;
+    font-size: 4vw;
+  }
+
+  #about {
+    color: white;
+    text-align: left;
+    height: 200px;
+    padding-top: 35px;
+    font-size: 4vw;
+    padding: 0px 25px;
+  }
+
+  #code a {
+    color: #6c55fa;
+    font-size: 15px;
+  }
+
+  #code,
+  #email p {
+    font-size: 15px;
+  }
+
+  #about p {
+    background-color: #6c55fa;
+    padding: 0px;
+    font-size: 3vw;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}

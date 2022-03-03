@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "firebase": "^9.6.7"
+  },
+  "name": "jokewebsite",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Benjamin Goodhart",
+  "license": "ISC",
+  "description": ""
+}
